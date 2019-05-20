@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+{{props ${1:object}}}
+    ${0: \{\{:key\}\}:\{\{:prop\}\} }
+{{else}}
+{{/props}}
+]]></content>
+    <tabTrigger>jsrender</tabTrigger>
+    <description>jsrender:props</description>
+    <scope>source.js,text.html</scope>
+</snippet>

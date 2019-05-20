@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+<script id="${1:ID}" type="text/x-jsrender">
+</script>
+]]></content>
+    <tabTrigger>jsrender</tabTrigger>
+    <description>jsrender:template</description>
+    <scope>source.js,text.html</scope>
+</snippet>

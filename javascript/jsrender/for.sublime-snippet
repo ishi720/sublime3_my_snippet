@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+{{for ${1:array}}}
+    $0
+{{else}}
+{{/for}}
+]]></content>
+    <tabTrigger>jsrender</tabTrigger>
+    <description>jsrender:for</description>
+    <scope>source.js,text.html</scope>
+</snippet>
