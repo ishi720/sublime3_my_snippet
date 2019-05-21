@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+\$.each(${1:array}, function(key, value){
+    ${0: console.log(index + ':' + value);}
+})
+]]></content>
+    <tabTrigger>$.each,jquery</tabTrigger>
+    <description>jquey:each</description>
+    <scope>source.js,text.html</scope>
+</snippet>

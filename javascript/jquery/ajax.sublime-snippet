@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+\$.ajax({
+    type: '${1:GET}',
+    url: '${2:url}',
+    data: {
+        '${3:text}': '$4'
+    },
+    dataType: '${5:json}',
+    async: ${6:false}
+}).done(function(res){
+    ${7:console.log('done');}
+}).fail(function(){
+    ${8:console.log('fail');}
+}).always(function(){
+    ${9:console.log('always');}
+});
+]]></content>
+    <tabTrigger>$.ajax</tabTrigger>
+    <description>jquey:ajax</description>
+    <scope>source.js,text.html</scope>
+</snippet>
