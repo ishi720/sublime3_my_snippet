@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-CLEAR GRAPH <GRAPH_NAME>
+CLEAR GRAPH <${1:GRAPH_NAME}>
 ]]></content>
     <tabTrigger>sparql</tabTrigger>
     <description>sparql:clear</description>
