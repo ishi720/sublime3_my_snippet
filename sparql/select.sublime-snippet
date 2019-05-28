@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+SELECT *
+WHERE {
+    GRAPH <${1:GRAPH_NAME}>
+        { ?s ?p ?o }
+    }
+ORDER BY ?s ?p
+LIMIT 100
+]]></content>
+    <tabTrigger>sparql</tabTrigger>
+    <description>sparql:select</description>
+    <scope></scope>
+</snippet>

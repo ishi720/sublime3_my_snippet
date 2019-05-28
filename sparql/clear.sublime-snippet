@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+CLEAR GRAPH <GRAPH_NAME>
+]]></content>
+    <tabTrigger>sparql</tabTrigger>
+    <description>sparql:clear</description>
+    <scope></scope>
+</snippet>

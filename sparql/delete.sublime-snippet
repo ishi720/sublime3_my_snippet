@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+DELETE WHERE {
+    GRAPH <${1:GRAPH_NAME}> {
+        <${2:subject}> ?p ?o 
+    }
+}
+]]></content>
+    <tabTrigger>sparql</tabTrigger>
+    <description>sparql:delete</description>
+    <scope></scope>
+</snippet>
