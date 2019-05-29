@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>${1:title}</title>
+
+    <script type="text/javascript" src=""></script>
+    <link rel="stylesheet" href="" />
+</head>
+<body>
+    ${0:<h1>コンテンツ</h1>}
+</body>
+</html>
+]]></content>
+    <tabTrigger>html</tabTrigger>
+    <description>MyCustomize</description>
+    <scope>text.html</scope>
+</snippet>
+

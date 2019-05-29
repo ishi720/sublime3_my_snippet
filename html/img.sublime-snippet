@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<img src="${1:$SELECTION}">
+]]></content>
+    <tabTrigger>img</tabTrigger>
+    <description>MyCustomize</description>
+    <scope>text.html</scope>
+</snippet>
