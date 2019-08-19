@@ -1,10 +1,10 @@
 <snippet>
     <content><![CDATA[
-\$.each(${1:array}, function(key, value){
+\$.each(${1:Array}, function(key, value){
     ${0: console.log(index + ':' + value);}
-})
+});
 ]]></content>
-    <tabTrigger>$.each,jquery</tabTrigger>
+    <tabTrigger>$.each</tabTrigger>
     <description>jquey:each</description>
-    <scope>source.js,text.html</scope>
+    <scope>source.js</scope>
 </snippet>
