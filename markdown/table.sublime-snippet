@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+|  TH  |  TH  |
+| :---: | :---: |
+|  TD  |  TD  |
+|  TD  |  TD  |
+]]></content>
+    <tabTrigger>table</tabTrigger>
+    <description>markdown</description>
+    <scope>text.html.markdown</scope>
+</snippet>
