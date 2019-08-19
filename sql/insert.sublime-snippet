@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+INSERT INTO ${1:table} ( column1, column2 ) VALUES ( val1, val2 );
+]]></content>
+    <tabTrigger>insert</tabTrigger>
+    <description>sql</description>
+</snippet>

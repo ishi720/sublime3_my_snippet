@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+DELETE FROM ${1:table} WHERE 1;
+]]></content>
+    <tabTrigger>delete</tabTrigger>
+    <description>sql</description>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+UPDATE ${1:table} SET column = hoge WHERE 1;
+]]></content>
+    <tabTrigger>update</tabTrigger>
+    <description>sql</description>
+</snippet>
