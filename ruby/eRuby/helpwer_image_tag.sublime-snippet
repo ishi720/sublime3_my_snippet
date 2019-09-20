@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<%=image_tag '${1:img_url}'${2:, id:'id'}${3:, class:'class'} %>
+]]></content>
+    <tabTrigger>&lt;%</tabTrigger>
+    <description>helper:image_tag</description>
+    <scope>text.html.ruby</scope>
+</snippet>
