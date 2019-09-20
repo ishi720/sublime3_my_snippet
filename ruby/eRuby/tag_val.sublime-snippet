@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<%= ${1:@val} %>
+]]></content>
+    <tabTrigger>&lt;%</tabTrigger>
+    <description>&lt;%= @val %&gt;</description>
+    <scope>text.html.ruby</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<% ${1:puts 'code'} %>
+]]></content>
+    <tabTrigger>&lt;%</tabTrigger>
+    <description>&lt;%= code %&gt;</description>
+    <scope>text.html.ruby</scope>
+</snippet>
