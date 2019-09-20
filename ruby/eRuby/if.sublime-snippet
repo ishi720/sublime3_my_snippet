@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+<% if ${1:foo == 'a'} %>
+    ${2: puts 'a'}
+<% elsif ${3:foo == 'b'} %>
+    ${4: puts 'b'}
+<% else %>
+    ${5: puts foo}
+<% end %>
+]]></content>
+    <tabTrigger>&lt;%</tabTrigger>
+    <description>&lt;% if</description>
+    <scope>text.html.ruby</scope>
+</snippet>
